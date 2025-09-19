@@ -42,3 +42,13 @@ install(
 	FILES ${PROJECT_BINARY_DIR}/HelloProjConfig.cmake
 	DESTINATION cmake/
 )
+
+# Configure CPack
+if(WIN32)
+	set(CPACK_GENERATOR "ZIP")
+else()
+	set(CPACK_GENERATOR "TGZ")
+endif()
+
+# This must always be last!
+include(CPack)
