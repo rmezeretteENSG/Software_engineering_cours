@@ -8,4 +8,4 @@ semantic-release:
 	- name: Semantic Release
 	uses: cycjimmy/semantic-release-action@v4
 	env:
-GITHUB_TOKEN: ${{ secrets.TOKEN }}
+		GITHUB_TOKEN: ${{ secrets.TOKEN }}
