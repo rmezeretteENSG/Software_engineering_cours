@@ -2,6 +2,6 @@
 
 int main()
 {
-	print_version();
-	return 0;
+    print_version();
+    return 0;
 }

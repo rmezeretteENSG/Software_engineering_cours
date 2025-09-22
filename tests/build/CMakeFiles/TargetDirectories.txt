@@ -1,5 +1,0 @@
-C:/Users/e4997u/Documents/tests/build/CMakeFiles/test_hello.dir
-C:/Users/e4997u/Documents/tests/build/CMakeFiles/test_version.dir
-C:/Users/e4997u/Documents/tests/build/CMakeFiles/RUN_TESTS.dir
-C:/Users/e4997u/Documents/tests/build/CMakeFiles/ALL_BUILD.dir
-C:/Users/e4997u/Documents/tests/build/CMakeFiles/ZERO_CHECK.dir
