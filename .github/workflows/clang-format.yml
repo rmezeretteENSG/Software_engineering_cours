@@ -1,6 +1,5 @@
 name: format
-on: 
-  push:
+on: push
 
 jobs:
   format:
