@@ -1,0 +1,16 @@
+name: clang-format
+
+on:
+  push:
+    branches: [ "main" ]
+    pull_request: [ "main" ]
+
+jobs:
+  format:
+    uses: Geode-solutions/actions/.github/workflows/format.yml@master
+    secrets:
+      TOKEN: ${{ secrets.TOKEN }}
+
+  build:
+    runs-on: ubuntu-latest
+    needs: [format]
