@@ -1,3 +1,7 @@
+name: format
+on: 
+  push:
+
 jobs:
   format:
     uses: Geode-solutions/actions/.github/workflows/format.yml@master
